@@ -321,7 +321,7 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo">Lara Wehbe</div>
+            <div class="logo">Hamza Mehdawi</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -335,10 +335,10 @@
             <div class="hero-content">
                 <div class="profile-image">
                     <!-- Replace with your image: <img src="your-image.jpg" alt="Your Name" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"> -->
-                    <img src="myimage.jpg" alt="Lara Wehbe" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"> 
+                    <img src="myimage.jpg" alt="Hamza Mehdawi" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"> 
                 </div>
-                <h1>Lara WEHBE </h1>
-                <p>Replace this with a brief description about yourself. What you do, your passions, and what makes you unique as a developer or professional.</p>
+                <h1>Hamza MEHDAWI</h1>
+                <p>AI Engineer and MSc Artificial Intelligence student based in Ramallah, Palestine. An electronics engineer turned AI engineer, I work on Machine Learning, Deep Learning, NLP and WiFi sensing — currently researching multi-task human activity detection from WiFi Channel State Information (CSI).</p>
                 <a href="#contact" class="cta-button">Let's Collaborate</a>
             </div>
         </div>
@@ -351,152 +351,152 @@
                 
                 <!-- Project 1 -->
                 <div class="project-card">
-                    <h3>Project Name 1</h3>
+                    <h3>AI Interview Chatbot</h3>
                     <p class="project-description">
-                        Add a brief description of your first project here. Explain what it does, what problem it solves, and why it's interesting.
+                        A mock job interview app where an AI interviewer acts as an HR executive. Users enter their name, experience and skills, choose a seniority level, job position and target company, then answer five live, streamed interview questions. At the end, the app scores the candidate from 1 to 10 and gives written feedback.
                     </p>
                     
                     <div class="project-details">
                         <h4>Tech Stack:</h4>
                         <ul>
-                            <li>Technology 1</li>
-                            <li>Technology 2</li>
-                            <li>Technology 3</li>
+                            <li>Python - Streamlit</li>
+                            <li>Groq API (openai/gpt-oss-120b LLM)</li>
+                            <li>python-dotenv - streamlit-js-eval</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Main Objective:</h4>
                         <ul>
-                            <li>Primary goal or objective</li>
-                            <li>Secondary objective</li>
+                            <li>Help candidates practice realistic job interviews with an LLM</li>
+                            <li>Give an objective score and actionable feedback</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Deployment:</h4>
                         <ul>
-                            <li>Deployment platform (e.g., Vercel, Netlify, AWS)</li>
-                            <li>Additional deployment details</li>
+                            <li>Streamlit Community Cloud</li>
+                            <li>API key managed through a .env file</li>
                         </ul>
                     </div>
                     
                     <div class="project-links">
-                        <a href="#" class="project-link">GitHub</a>
-                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="https://github.com/hamza-mehdawi/interview-tool" class="project-link">GitHub</a>
+                        <a href="https://interview-tool-chatbot.streamlit.app" class="project-link">Live Demo</a>
                     </div>
                 </div>
 
                 <!-- Project 2 -->
                 <div class="project-card">
-                    <h3>Smart Trading Assistant</h3>
+                    <h3>Sentiment-Aware E-commerce Support Chatbot</h3>
                     <p class="project-description">
-                        An intelligent trading assistant powered by GPT-4 that uses function calling to analyze market data, execute trades, and provide real-time financial insights. The assistant can fetch stock prices, calculate technical indicators, analyze market sentiment, and execute paper trades through API integrations.
+                        Master's research project: a customer-support chatbot for e-commerce that detects the customer's sentiment and adapts its replies. Includes a real evaluation pipeline comparing classic and modern sentiment models (VADER, TextBlob, DistilBERT and Claude Sonnet). Paper submitted to the Jordanian Journal of Computers and Information Technology (JJCIT).
                     </p>
                     
                     <div class="project-details">
                         <h4>Tech Stack:</h4>
                         <ul>
-                            <li>OpenAI GPT-4 with Function Calling</li>
-                            <li>Python - FastAPI - Streamlit</li>
-                            <li>Alpha Vantage API - Yahoo Finance API</li>
+                            <li>Python - FastAPI - Gradio</li>
+                            <li>Claude Sonnet API (Anthropic)</li>
+                            <li>VADER - TextBlob - DistilBERT (Hugging Face)</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Main Objective:</h4>
                         <ul>
-                            <li>Automate financial analysis and trading decisions</li>
-                            <li>Provide intelligent market insights through natural language</li>
+                            <li>Improve customer support with sentiment-aware responses</li>
+                            <li>Benchmark lexicon, transformer and LLM sentiment models</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Deployment:</h4>
                         <ul>
-                            <li>Streamlit Cloud</li>
-                            <li>Docker containerization for API services</li>
+                            <li>FastAPI REST backend</li>
+                            <li>Gradio web interface</li>
                         </ul>
                     </div>
                     
                     <div class="project-links">
-                        <a href="#" class="project-link">GitHub</a>
+                        <a href="https://github.com/hamza-mehdawi" class="project-link">GitHub</a>
                         <a href="#" class="project-link">Live Demo</a>
                     </div>
                 </div>
 
                 <!-- Project 3 -->
                 <div class="project-card">
-                    <h3>Custom Legal Advisor Model</h3>
+                    <h3>Speech Emotion Recognition (SER)</h3>
                     <p class="project-description">
-                        Fine-tuned Llama-2-7B-Chat model specialized for legal document analysis and advice. The model was trained on legal datasets to provide accurate legal guidance, contract analysis, and compliance recommendations. Uses instruction-based fine-tuning with LoRA for efficient training.
+                        A comparative deep learning study that recognizes 7 emotions from speech on the TESS dataset (2,800 audio files). MFCC features were used to train CNN, Simple RNN and Vision Transformer (ViT) models, reaching ~99.8% accuracy with CNN, 97.4% with ViT and 86.9% with RNN. Extended with fine-tuning of transformer audio models (Wav2Vec2 and emotion2vec+).
                     </p>
                     
                     <div class="project-details">
                         <h4>Tech Stack:</h4>
                         <ul>
-                            <li>Hugging Face Transformers - PyTorch</li>
-                            <li>LoRA (Low-Rank Adaptation) - PEFT</li>
-                            <li>Weights & Biases for experiment tracking</li>
+                            <li>TensorFlow / Keras - PyTorch</li>
+                            <li>Hugging Face Transformers (Wav2Vec2, emotion2vec+)</li>
+                            <li>Librosa (MFCC) - Scikit-learn - Seaborn</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Main Objective:</h4>
                         <ul>
-                            <li>Create domain-specific legal AI assistant</li>
-                            <li>Improve accuracy for legal document understanding</li>
+                            <li>Compare CNN, RNN and ViT architectures for emotion recognition</li>
+                            <li>Evaluate fine-tuned pre-trained audio transformers</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Deployment:</h4>
                         <ul>
-                            <li>Hugging Face Model Hub</li>
-                            <li>Digital Ocean</li>
+                            <li>Jupyter Notebooks (GPU training)</li>
+                            <li>Research paper and presentation</li>
                         </ul>
                     </div>
                     
                     <div class="project-links">
-                        <a href="#" class="project-link">GitHub</a>
+                        <a href="https://github.com/hamza-mehdawi" class="project-link">GitHub</a>
                         <a href="#" class="project-link">Live Demo</a>
                     </div>
                 </div>
 
                 <!-- Project 4 -->
                 <div class="project-card">
-                    <h3>Your Custom Project!</h3>
+                    <h3>Multi-Task WiFi CSI Sensing (MSc Thesis)</h3>
                     <p class="project-description">
-                        Example: A vision-language model application that analyzes medical images (X-rays, MRIs, CT scans) and provides detailed diagnostic insights. Uses GPT-4 Vision and specialized medical vision models to identify abnormalities, generate reports, and assist healthcare professionals in diagnosis.
+                        Master's thesis on sensing human activity through walls using WiFi Channel State Information (CSI). A deep learning model performs multi-task detection of multiple activities across different users, environments and devices, trained on the CSI-Bench dataset and evaluated cross-dataset on WiMANS, XRF55 and Widar.
                     </p>
                     
                     <div class="project-details">
                         <h4>Tech Stack:</h4>
                         <ul>
-                            <li>GPT-4 Vision - LLaVA-Med</li>
-                            <li>OpenCV - PIL - Gradio</li>
-                            <li>DICOM image processing libraries</li>
+                            <li>Python - PyTorch (Deep Learning)</li>
+                            <li>CSI-Bench - WiMANS - XRF55 - Widar datasets</li>
+                            <li>ESP32 boards with external antennas</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Main Objective:</h4>
                         <ul>
-                            <li>Assist radiologists in faster image analysis</li>
-                            <li>Generate detailed medical reports from images</li>
+                            <li>Detect multiple activities across users, environments and devices</li>
+                            <li>Support smart-building monitoring and emergency response</li>
                         </ul>
                     </div>
                     
                     <div class="project-details">
                         <h4>Deployment:</h4>
                         <ul>
-                            <li>Gradio interface on Hugging Face Spaces</li>
-                            <li>HIPAA-compliant cloud infrastructure</li>
+                            <li>In progress (expected June 2027)</li>
+                            <li>Real-world CSI data collection with ESP32</li>
                         </ul>
                     </div>
                     
                     <div class="project-links">
-                        <a href="#" class="project-link">GitHub</a>
+                        <a href="https://github.com/hamza-mehdawi" class="project-link">GitHub</a>
                         <a href="#" class="project-link">Live Demo</a>
                     </div>
                 </div>
@@ -509,7 +509,7 @@
         <div class="container">
             <h2>Let's Work Together</h2>
             <p>Ready to bring your ideas to life? I'm always excited to collaborate on new projects and opportunities.</p>
-            <a href="#" class="contact-cta">Get In Touch</a>
+            <a href="mailto:eng.hamza.mehdawi@gmail.com" class="contact-cta">Get In Touch</a>
         </div>
     </section>
 
